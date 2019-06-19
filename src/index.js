@@ -13,7 +13,9 @@ import { browserHistory,Router,Route } from 'react-router-3';
 import homeProfesor from './componentes/homeProfesor';
 import ejemplo from './componentes/ejemplo';
 import cursos from './componentes/cursos';
+import cursosProfesor from './componentes/cursosProfesor';
 import usuario from './componentes/usuario';
+import usuarioProfesor from './componentes/usuarioProfesor';
 
 class Index extends React.Component{
     render(){
@@ -27,8 +29,9 @@ class Index extends React.Component{
                 <Router  path="/homep/:id" component={homeProfesor}></Router>
                 <Router  path="/prueba" component={ejemplo}></Router>
                 <Router  path="/curso/:cursoid/:alumnoid" component={cursos}></Router>
+                <Router  path="/cursop/:cursoid/:profesorid" component={cursosProfesor}></Router>
                 <Router  path="/usuario/:alumno" component={usuario}></Router>
-
+                <Router  path="/usuariop/:profesor" component={usuarioProfesor}></Router>
             </Router>
         )
     }
