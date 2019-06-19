@@ -124,7 +124,7 @@ class cursosProfesor extends React.Component {
                             <div className="row mb-4">
                                 <div className="col-12 pl-5 pr-5">
                                     <div id="accordion">
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -158,7 +158,7 @@ class cursosProfesor extends React.Component {
                                             </div>
                                         </div>
 
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -191,7 +191,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -224,7 +224,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -257,7 +257,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -290,7 +290,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -323,7 +323,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -356,7 +356,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="ccard sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -389,7 +389,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -422,7 +422,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -455,7 +455,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -488,7 +488,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -521,7 +521,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -554,7 +554,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -587,7 +587,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -620,7 +620,7 @@ class cursosProfesor extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card">
+                                        <div className="card sombras_ mb-2">
                                             <div className="card-header" id="headingOne">
                                                 <h5 className="mb-0">
                                                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
