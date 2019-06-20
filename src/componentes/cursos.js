@@ -14,6 +14,7 @@ class cursos extends React.Component{
             curso_i: '',
             pnombre:'',
             papellido:'',
+            curso:[]
         };
 
         this.onClick = this.onClick.bind(this);
@@ -33,10 +34,12 @@ class cursos extends React.Component{
                 function (response) {
                     return response.json();
                 }).then(function (data) {
-                    var b = data.programmings;
-                    for(let a in b){
-                        console.log(b[a]['id']+" "+b[a]['course_id']);
-                    }
+                    
+                    currentComponent.setState({
+                        curso: data.programmings
+                        
+                    })
+
                     data.programmings.forEach(element => {
                     array[i]={    
                      "creditos":element.courses[0].credit,
@@ -88,13 +91,18 @@ class cursos extends React.Component{
     handleChange(event) {
         var file = event.target.files[0];
 
-        // var h = new Headers();
-        //     h.append('Accept','application/json,text,binary');  
-        //     h.append('Content-type','application/json'); 
+        var programmings = this.state.cursos;
+        var id = -1;
+        for(let index in programmings){
+            if(programmings[index]['course_id'] == this.props.params.cursoid){
+                id = programmings[index]['id'];
+                break;
+            }
+        }
         
         var data = new FormData();
         data.append('file', file);
-        data.append('id', this.props.params.cursoid);
+        data.append('id', id);
 
         fetch('https://back-ihc.herokuapp.com/api/document/',{
             // headers: h,
